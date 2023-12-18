@@ -27,6 +27,7 @@ class TapThree extends StatelessWidget {
             color: Colors.black
           ),)),
         Information("Name","Marco Ayman"),
+        Information("Age","20"),
         Information("Gender" ,"Male"),
         Information("Date of birth", "17/1/2003"),
         Padding(

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project_software/screens/login/loginscreen.dart';
+import 'package:project_software/screens/subscription/subscription.dart';
 import 'package:provider/provider.dart';
 import 'provider/myprovider.dart';
 import 'screens/home/homescreen.dart';
@@ -16,7 +18,11 @@ class MyApplication extends StatelessWidget{
       MaterialApp(
           debugShowCheckedModeBanner: false,
           initialRoute: Home_Screen.nameroute,
-          routes: {Home_Screen.nameroute: (context) => Home_Screen(),
+          //Login_Screen.nameroute,
+          routes: {
+            Login_Screen.nameroute:(context) => Login_Screen(),
+            Home_Screen.nameroute : (context) => Home_Screen(),
+          Subscription.nameroute  :(context) => Subscription(),
           },
         theme: AppTheme.lightTheme,
       );

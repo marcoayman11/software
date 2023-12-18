@@ -3,12 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:project_software/provider/myprovider.dart';
 import 'package:project_software/styles/theme.dart';
 import 'package:provider/provider.dart';
-import '../../taps/tapfour.dart';
 import '../../taps/tapone.dart';
 import '../../taps/tapthree.dart';
 import '../../taps/taptwo.dart';
-
-
 class Home_Screen extends StatelessWidget {
   static const String nameroute = "home";
   int index = 0;
@@ -16,7 +13,6 @@ class Home_Screen extends StatelessWidget {
     TapOne(),
     TapTwo(),
     TapThree(),
-    TapFour(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -37,10 +33,6 @@ class Home_Screen extends StatelessWidget {
             BottomNavigationBarItem(
                 label: "",
                 icon: Icon(Icons.sports_gymnastics)
-            ),
-            BottomNavigationBarItem(
-                icon:Icon(Icons.calendar_month)
-                ,label: ""
             ),
             BottomNavigationBarItem(
                 icon:Icon(Icons.person)

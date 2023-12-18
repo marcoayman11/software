@@ -25,7 +25,7 @@ class TapTwo extends StatelessWidget {
           child: Row(
             children: [
               Image.asset("assets/images/logo.png"),
-              Text("ProFitness",style: AppTheme.titlestyle),
+              Text("ProFit",style: AppTheme.titlestyle),
             ],
           ),
         ),

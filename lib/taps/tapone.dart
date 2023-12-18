@@ -17,7 +17,7 @@ class TapOne extends StatelessWidget {
          child: Row(
            children: [
              Image.asset("assets/images/logo.png"),
-             Text("ProFitness",style: AppTheme.titlestyle),
+             Text("ProFit",style: AppTheme.titlestyle),
              Spacer(),
              Stack(
                alignment: Alignment.topRight,
@@ -39,18 +39,10 @@ class TapOne extends StatelessWidget {
           padding: const EdgeInsets.symmetric(
               vertical: 8,horizontal:16
           ),
-          child: Row(
-           children: [
-            const Text("Hello,",style: TextStyle(
-              fontWeight: FontWeight.w400,
-              fontSize: 20,
-            ),),
-             Text("Sara Rose",style: TextStyle(
-               fontWeight: FontWeight.bold,
-               fontSize: 20,
-             ))
-           ],
-       ),
+          child: const Text("Hello,",style: TextStyle(
+            fontWeight: FontWeight.w400,
+            fontSize: 20,
+          ),),
         ),
         Padding(
           padding: const EdgeInsets.symmetric(
@@ -124,7 +116,7 @@ class TapOne extends StatelessWidget {
                 borderSide: BorderSide(color: Colors.transparent)
               ),
               margin: EdgeInsets.all(16),
-              color: Color(0XFFECFDF3),
+              color: Color(0XFFEAECF5),
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Row(

@@ -7,6 +7,7 @@ class ModelCard{
     required this.text1,
     required this.text2,
     required this.pathimage,
-     this.flag=true}
+     this.flag=true
+  }
       );
 }
